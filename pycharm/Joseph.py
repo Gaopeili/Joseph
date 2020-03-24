@@ -380,9 +380,7 @@ def main():
     # plt.legend(['列表','链表'])
     # plt.show()
 
-   matrix = np.random.randint(1,20,10)
-   answer = Joseph(matrix.tolist,2)
-   answer.josephByList()
+   
 
 if __name__ == '__main__':
     main()
