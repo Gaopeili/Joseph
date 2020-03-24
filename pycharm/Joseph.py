@@ -154,6 +154,10 @@ class Joseph():
 
 
 def main():
+    """单向循环链表/数组测试"""
+    """测试时只需修改调用方法即可
+       单向循环链表测试时的跨度为1k到1M
+       数组测试时的数据跨度为1k到500k"""
     # lst = []
     # # 设置随机种子,便于多次调试比较
     # np.random.seed(666)
@@ -185,7 +189,8 @@ def main():
     # plt.ylabel("时间/秒")
     # plt.title("列表数据测试")
     # plt.show()
-
+    
+    """平均时间链表列表对比测试"""
     # # 存储List的平均时间
     # List = []
     # # 存储Link的平均时间
@@ -235,6 +240,7 @@ def main():
     # plt.legend(['列表','链表'])
     # plt.show()
 
+    """非平均时间的列表链表对比测试"""
     # # 存储List的时间
     # List = []
     # # 存储Link的时间
@@ -269,6 +275,7 @@ def main():
     # plt.legend(['列表','链表'])
     # plt.show()
 
+    """仅有负数的链表单向循环列表对比测试"""
     # # 存储List的时间
     # List = []
     # # 存储Link的时间
@@ -278,7 +285,7 @@ def main():
     # np.random.seed(666)
     # for num in nums:
     #     # 创建一个向量
-    #     matrix = np.random.randint(-10,10,num)
+    #     matrix = np.random.randint(-10,-1,num)
     #     datas = matrix.tolist()
     #     Answers = Joseph(datas,m=2)
     #     t1 = time.time()
@@ -304,6 +311,7 @@ def main():
     # plt.legend(['列表','链表'])
     # plt.show()
 
+    """带负数的链表列表对比测试"""
     # # 存储List的时间
     # List1 = []
     # # 存储Link的时间
@@ -338,6 +346,7 @@ def main():
     # plt.legend(['带负数', '不带负数'])
     # plt.show()
 
+    """仅有负数的列表双向循环链表对比测试"""
     # # 存储List的时间
     # List = []
     # # 存储Link的时间
